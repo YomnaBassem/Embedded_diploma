@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : Assi_1_1.c
- Author      : 
+ Author      : Yomna Bassem
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
@@ -12,6 +12,6 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+printf("C programming")	;
+	return;
 }
