@@ -1,2 +1,56 @@
-Info: Nothing to build for Assi_1_1
-Info: Nothing to build for Assi_1_1
+13:37:01 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+Info: Nothing to build for Assi_1_4
+Info: Nothing to build for Assi_1_4
+Info: Nothing to build for Assi_1_4
+13:38:46 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+..\src\Assi_1_4.c: In function 'main':
+..\src\Assi_1_4.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d",&x,&y);
+          ^
+..\src\Assi_1_4.c:18:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d",&x,&y);
+            ^
+..\src\Assi_1_4.c:19:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("The product=%d",x*y);
+                       ^
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+13:39:20 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+..\src\Assi_1_4.c: In function 'main':
+..\src\Assi_1_4.c:19:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("The product=%d",x*y);
+                       ^
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+13:40:00 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+..\src\Assi_1_4.c: In function 'main':
+..\src\Assi_1_4.c:20:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  printf("The product=%d",&product);
+                       ^
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+13:42:41 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+..\src\Assi_1_4.c: In function 'main':
+..\src\Assi_1_4.c:20:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  printf("The product=%d",&product);
+                       ^
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+13:43:18 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+..\src\Assi_1_4.c: In function 'main':
+..\src\Assi_1_4.c:20:23: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  printf("The product=%f",&product);
+                       ^
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
+13:46:10 **** Incremental Build of configuration Debug for project Assi_1_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_4.o" "..\\src\\Assi_1_4.c" 
+gcc -o Assi_1_4.exe "src\\Assi_1_4.o" 
