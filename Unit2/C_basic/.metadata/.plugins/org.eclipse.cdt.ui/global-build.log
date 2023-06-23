@@ -1,0 +1,5 @@
+11:32:00 **** Rebuild of configuration Debug for project Assi_1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_1.o" "..\\src\\Assi_1_1.c" 
+gcc -o Assi_1_1.exe "src\\Assi_1_1.o" 
+Info: Nothing to build for Assi_1_1
