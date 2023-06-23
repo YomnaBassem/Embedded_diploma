@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Assi_1_6.c
+ Author      : Yomna Bassem
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	float a,b;
+	fflush(stdin); fflush(stdout);
+	scanf("%f",&a);
+	scanf("%f",&b);
+	printf("Enter the value of a:%f \n Enter the value of b:%f",a,b);
+	a=b;
+	b=a;
+	printf("After swapping , value of a: %f \n After swapping , value of b: %f",a,b);
+
+}
