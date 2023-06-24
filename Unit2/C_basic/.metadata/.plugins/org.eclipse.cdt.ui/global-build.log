@@ -1,36 +1,41 @@
-14:59:05 **** Incremental Build of configuration Debug for project Assi_1_7 ****
+21:45:27 **** Rebuild of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-Info: Nothing to build for Assi_1_7
-15:00:11 **** Incremental Build of configuration Debug for project Assi_1_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+21:45:37 **** Incremental Build of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-15:00:57 **** Incremental Build of configuration Debug for project Assi_1_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+..\src\Assi_2_1.c: In function 'main':
+..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",x);
+          ^
+..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",x);
+  ^~~~~~~~~~~~~
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+21:47:07 **** Incremental Build of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-15:10:52 **** Incremental Build of configuration Debug for project Assi_1_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+..\src\Assi_2_1.c: In function 'main':
+..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",x);
+          ^
+..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",x);
+  ^~~~~~~~~~~~~
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+21:47:48 **** Incremental Build of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-15:11:15 **** Incremental Build of configuration Debug for project Assi_1_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+..\src\Assi_2_1.c: In function 'main':
+..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",x);
+          ^
+..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",x);
+  ^~~~~~~~~~~~~
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+21:48:44 **** Incremental Build of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-Info: Nothing to build for Assi_1_7
-15:13:24 **** Incremental Build of configuration Debug for project Assi_1_7 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_1_7.o" "..\\src\\Assi_1_7.c" 
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_1_7.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:13:48 **** Incremental Build of configuration Debug for project Assi_1_7 ****
-Info: Internal Builder is used for build
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_1_7.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:15:01 **** Incremental Build of configuration Debug for project Assi_1_7 ****
-Info: Internal Builder is used for build
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
