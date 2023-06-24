@@ -1,63 +1,31 @@
-22:43:18 **** Rebuild of configuration Debug for project Assi_2_4 ****
+23:02:49 **** Incremental Build of configuration Debug for project Assi_2_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-22:43:27 **** Incremental Build of configuration Debug for project Assi_2_4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
+..\src\Assi_2_5.c: In function 'main':
+..\src\Assi_2_5.c:19:9: error: 'A' undeclared (first use in this function)
+  if ((x>A) && (x<Z)){
+         ^
+..\src\Assi_2_5.c:19:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Assi_2_5.c:19:18: error: 'Z' undeclared (first use in this function)
+  if ((x>A) && (x<Z)){
+                  ^
+23:02:54 **** Incremental Build of configuration Debug for project Assi_2_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-..\src\Assi_2_4.c: In function 'main':
-..\src\Assi_2_4.c:19:7: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  if (x&(1<<7)==1){
-       ^
-..\src\Assi_2_4.c:22:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  else if (x&(1<<7)==0){
-            ^
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-22:44:28 **** Incremental Build of configuration Debug for project Assi_2_4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
+..\src\Assi_2_5.c: In function 'main':
+..\src\Assi_2_5.c:19:9: error: 'A' undeclared (first use in this function)
+  if ((x>A) && (x<Z)){
+         ^
+..\src\Assi_2_5.c:19:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Assi_2_5.c:19:18: error: 'Z' undeclared (first use in this function)
+  if ((x>A) && (x<Z)){
+                  ^
+23:03:57 **** Incremental Build of configuration Debug for project Assi_2_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-..\src\Assi_2_4.c: In function 'main':
-..\src\Assi_2_4.c:19:8: error: invalid operands to binary & (have 'float' and 'int')
-  if ((x&(1<<7))==1){
-        ^
-..\src\Assi_2_4.c:22:13: error: invalid operands to binary & (have 'float' and 'int')
-  else if ((x&(1<<7))==0){
-             ^
-22:45:11 **** Incremental Build of configuration Debug for project Assi_2_4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
+gcc -o Assi_2_5.exe "src\\Assi_2_5.o" 
+23:04:11 **** Incremental Build of configuration Debug for project Assi_2_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-..\src\Assi_2_4.c: In function 'main':
-..\src\Assi_2_4.c:18:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
-  scanf("%f",&x);
-          ^
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_2_4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:45:31 **** Incremental Build of configuration Debug for project Assi_2_4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_2_4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:48:17 **** Incremental Build of configuration Debug for project Assi_2_4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_2_4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:49:14 **** Incremental Build of configuration Debug for project Assi_2_4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_2_4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:53:17 **** Incremental Build of configuration Debug for project Assi_2_4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assi_2_4.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:57:07 **** Incremental Build of configuration Debug for project Assi_2_4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_4.o" "..\\src\\Assi_2_4.c" 
-gcc -o Assi_2_4.exe "src\\Assi_2_4.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
+gcc -o Assi_2_5.exe "src\\Assi_2_5.o" 
+Info: Nothing to build for Assi_2_5
