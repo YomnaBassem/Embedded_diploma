@@ -1,41 +1,50 @@
-21:45:27 **** Rebuild of configuration Debug for project Assi_2_1 ****
+22:13:13 **** Rebuild of configuration Debug for project Assi_2_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
-gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
-21:45:37 **** Incremental Build of configuration Debug for project Assi_2_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+22:13:24 **** Incremental Build of configuration Debug for project Assi_2_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
-..\src\Assi_2_1.c: In function 'main':
-..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-  scanf("%d",x);
-          ^
-..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
-  scanf("%d",x);
-  ^~~~~~~~~~~~~
-gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
-21:47:07 **** Incremental Build of configuration Debug for project Assi_2_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+..\src\Assi_2_@.c: In function 'main':
+..\src\Assi_2_@.c:20:7: warning: comparison between pointer and integer
+   if(x==y){
+       ^~
+..\src\Assi_2_@.c:24:13: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+    printf("%d is a consonant");
+             ^
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+22:13:49 **** Incremental Build of configuration Debug for project Assi_2_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
-..\src\Assi_2_1.c: In function 'main':
-..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-  scanf("%d",x);
-          ^
-..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
-  scanf("%d",x);
-  ^~~~~~~~~~~~~
-gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
-21:47:48 **** Incremental Build of configuration Debug for project Assi_2_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+..\src\Assi_2_@.c: In function 'main':
+..\src\Assi_2_@.c:20:7: warning: comparison between pointer and integer
+   if(x==y){
+       ^~
+..\src\Assi_2_@.c:24:13: warning: format '%c' expects a matching 'int' argument [-Wformat=]
+    printf("%c is a consonant");
+             ^
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+22:17:03 **** Incremental Build of configuration Debug for project Assi_2_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
-..\src\Assi_2_1.c: In function 'main':
-..\src\Assi_2_1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-  scanf("%d",x);
-          ^
-..\src\Assi_2_1.c:18:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
-  scanf("%d",x);
-  ^~~~~~~~~~~~~
-gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
-21:48:44 **** Incremental Build of configuration Debug for project Assi_2_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+..\src\Assi_2_@.c: In function 'main':
+..\src\Assi_2_@.c:21:16: error: 'found' undeclared (first use in this function)
+    if(y[i]==x) found=1;
+                ^~~~~
+..\src\Assi_2_@.c:21:16: note: each undeclared identifier is reported only once for each function it appears in
+22:19:01 **** Incremental Build of configuration Debug for project Assi_2_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
-gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+Info: Nothing to build for Assi_2_2
+22:22:34 **** Incremental Build of configuration Debug for project Assi_2_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+Info: Nothing to build for Assi_2_2
+22:23:56 **** Incremental Build of configuration Debug for project Assi_2_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_@.o" "..\\src\\Assi_2_@.c" 
+gcc -o Assi_2_2.exe "src\\Assi_2_@.o" 
+Info: Nothing to build for Assi_2_2
+Info: Nothing to build for Assi_2_2
