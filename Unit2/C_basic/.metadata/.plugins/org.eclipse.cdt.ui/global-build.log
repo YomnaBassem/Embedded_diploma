@@ -1,23 +1,38 @@
-23:57:03 **** Rebuild of configuration Debug for project Assi_2_7 ****
+00:14:04 **** Rebuild of configuration Debug for project Assi_2_8 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_7.o" "..\\src\\Assi_2_7.c" 
-gcc -o Assi_2_7.exe "src\\Assi_2_7.o" 
-23:57:09 **** Incremental Build of configuration Debug for project Assi_2_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_8.o" "..\\src\\Assi_2_8.c" 
+gcc -o Assi_2_8.exe "src\\Assi_2_8.o" 
+00:15:11 **** Incremental Build of configuration Debug for project Assi_2_8 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_7.o" "..\\src\\Assi_2_7.c" 
-..\src\Assi_2_7.c: In function 'main':
-..\src\Assi_2_7.c:26:35: warning: implicit declaration of function 'factroial' [-Wimplicit-function-declaration]
-   printf("The factroial of %d is",factroial(y));
-                                   ^~~~~~~~~
-gcc -o Assi_2_7.exe "src\\Assi_2_7.o" 
-src\Assi_2_7.o: In function `main':
-C:\Users\world\Desktop\Embedded diploma\Unit2\C_basic\Assi_2_7\Debug/../src/Assi_2_7.c:26: undefined reference to `factroial'
-collect2.exe: error: ld returned 1 exit status
-23:57:32 **** Incremental Build of configuration Debug for project Assi_2_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_8.o" "..\\src\\Assi_2_8.c" 
+..\src\Assi_2_8.c: In function 'main':
+..\src\Assi_2_8.c:21:2: warning: 'operator' is used uninitialized in this function [-Wuninitialized]
+  switch(operator)
+  ^~~~~~
+gcc -o Assi_2_8.exe "src\\Assi_2_8.o" 
+00:16:03 **** Incremental Build of configuration Debug for project Assi_2_8 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_7.o" "..\\src\\Assi_2_7.c" 
-gcc -o Assi_2_7.exe "src\\Assi_2_7.o" 
-23:57:57 **** Incremental Build of configuration Debug for project Assi_2_7 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_8.o" "..\\src\\Assi_2_8.c" 
+..\src\Assi_2_8.c: In function 'main':
+..\src\Assi_2_8.c:19:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",operator);
+          ^
+..\src\Assi_2_8.c:19:2: warning: 'operator' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",operator);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o Assi_2_8.exe "src\\Assi_2_8.o" 
+00:17:16 **** Incremental Build of configuration Debug for project Assi_2_8 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_7.o" "..\\src\\Assi_2_7.c" 
-gcc -o Assi_2_7.exe "src\\Assi_2_7.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_8.o" "..\\src\\Assi_2_8.c" 
+..\src\Assi_2_8.c: In function 'main':
+..\src\Assi_2_8.c:19:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",operator);
+          ^
+..\src\Assi_2_8.c:19:2: warning: 'operator' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",operator);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o Assi_2_8.exe "src\\Assi_2_8.o" 
+00:19:21 **** Incremental Build of configuration Debug for project Assi_2_8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_8.o" "..\\src\\Assi_2_8.c" 
+gcc -o Assi_2_8.exe "src\\Assi_2_8.o" 

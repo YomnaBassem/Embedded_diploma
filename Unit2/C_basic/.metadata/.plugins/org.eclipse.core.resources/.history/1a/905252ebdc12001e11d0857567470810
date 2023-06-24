@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Assi_2_1.c
+ Name        : Assi_2_5.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -10,15 +10,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(void) {
-	int x;
-	printf("The number you want to check :");
-		fflush(stdin); fflush(stdout);
-		scanf("%d",&x);
-	if(x%2==0){
-		printf("%d is even",x);
+	char x;
+	printf("Enter a character :");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&x);
+	if ((x>'A') && (x<'Z')){
+		printf("%c is a character",x);
 	}
 	else{
-		printf("%d is odd",x);
+		printf("%c is not a character",x);
 	}
 }
