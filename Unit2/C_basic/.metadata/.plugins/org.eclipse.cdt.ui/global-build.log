@@ -1,31 +1,52 @@
-23:02:49 **** Incremental Build of configuration Debug for project Assi_2_5 ****
+23:34:43 **** Rebuild of configuration Debug for project Assi_2_6 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
-..\src\Assi_2_5.c: In function 'main':
-..\src\Assi_2_5.c:19:9: error: 'A' undeclared (first use in this function)
-  if ((x>A) && (x<Z)){
-         ^
-..\src\Assi_2_5.c:19:9: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Assi_2_5.c:19:18: error: 'Z' undeclared (first use in this function)
-  if ((x>A) && (x<Z)){
-                  ^
-23:02:54 **** Incremental Build of configuration Debug for project Assi_2_5 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 
+23:35:05 **** Incremental Build of configuration Debug for project Assi_2_6 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
-..\src\Assi_2_5.c: In function 'main':
-..\src\Assi_2_5.c:19:9: error: 'A' undeclared (first use in this function)
-  if ((x>A) && (x<Z)){
-         ^
-..\src\Assi_2_5.c:19:9: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Assi_2_5.c:19:18: error: 'Z' undeclared (first use in this function)
-  if ((x>A) && (x<Z)){
-                  ^
-23:03:57 **** Incremental Build of configuration Debug for project Assi_2_5 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+..\src\Assi_2_6.c: In function 'main':
+..\src\Assi_2_6.c:19:19: warning: implicit declaration of function 'factorial' [-Wimplicit-function-declaration]
+   printf("sum=%d",factorial(y));
+                   ^~~~~~~~~
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 
+src\Assi_2_6.o: In function `main':
+C:\Users\world\Desktop\Embedded diploma\Unit2\C_basic\Assi_2_6\Debug/../src/Assi_2_6.c:19: undefined reference to `factorial'
+collect2.exe: error: ld returned 1 exit status
+23:35:40 **** Incremental Build of configuration Debug for project Assi_2_6 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
-gcc -o Assi_2_5.exe "src\\Assi_2_5.o" 
-23:04:11 **** Incremental Build of configuration Debug for project Assi_2_5 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+..\src\Assi_2_6.c: In function 'main':
+..\src\Assi_2_6.c:19:19: warning: implicit declaration of function 'factorial' [-Wimplicit-function-declaration]
+   printf("sum=%d",factorial(y));
+                   ^~~~~~~~~
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 
+Info: Nothing to build for Assi_1_1
+Info: Nothing to build for Assi_1_2
+Info: Nothing to build for Assi_1_3
+Info: Nothing to build for Assi_1_4
+Info: Nothing to build for Assi_1_5
+Info: Nothing to build for Assi_1_6
+Info: Nothing to build for Assi_1_7
+23:37:28 **** Incremental Build of configuration Debug for project Assi_2_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_5.o" "..\\src\\Assi_2_5.c" 
-gcc -o Assi_2_5.exe "src\\Assi_2_5.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_1.o" "..\\src\\Assi_2_1.c" 
+gcc -o Assi_2_1.exe "src\\Assi_2_1.o" 
+Info: Nothing to build for Assi_2_2
+Info: Nothing to build for Assi_2_3
+Info: Nothing to build for Assi_2_4
 Info: Nothing to build for Assi_2_5
+Info: Nothing to build for Assi_2_6
+23:37:37 **** Incremental Build of configuration Debug for project Assi_2_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 
+Info: Nothing to build for Assi_2_6
+23:45:26 **** Incremental Build of configuration Debug for project Assi_2_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 
+23:49:10 **** Incremental Build of configuration Debug for project Assi_2_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_6.o" "..\\src\\Assi_2_6.c" 
+gcc -o Assi_2_6.exe "src\\Assi_2_6.o" 

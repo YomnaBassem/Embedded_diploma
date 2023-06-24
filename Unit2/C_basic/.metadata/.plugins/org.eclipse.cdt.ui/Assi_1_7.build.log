@@ -1,6 +1,1 @@
-15:15:01 **** Incremental Build of configuration Debug for project Assi_1_7 ****
-Info: Internal Builder is used for build
-gcc -o Assi_1_7.exe "src\\Assi_1_7.o" 
-
-15:15:02 Build Finished (took 772ms)
-
+Info: Nothing to build for Assi_1_7
