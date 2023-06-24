@@ -1,8 +1,7 @@
-22:34:04 **** Rebuild of configuration Debug for project Assi_2_3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_3.o" "..\\src\\Assi_2_3.c" 
-gcc -o Assi_2_3.exe "src\\Assi_2_3.o" 
 22:34:11 **** Incremental Build of configuration Debug for project Assi_2_3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assi_2_3.o" "..\\src\\Assi_2_3.c" 
 gcc -o Assi_2_3.exe "src\\Assi_2_3.o" 
+
+22:34:12 Build Finished (took 986ms)
+
