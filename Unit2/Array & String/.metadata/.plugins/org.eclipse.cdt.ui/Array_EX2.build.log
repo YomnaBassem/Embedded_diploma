@@ -1,0 +1,11 @@
+11:22:52 **** Incremental Build of configuration Debug for project Array_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX2.o" "..\\src\\Array_EX2.c" 
+..\src\Array_EX2.c: In function 'main':
+..\src\Array_EX2.c:16:8: warning: unused variable 'Average' [-Wunused-variable]
+  float Average, sum=0 ;
+        ^~~~~~~
+gcc -o Array_EX2.exe "src\\Array_EX2.o" 
+
+11:22:53 Build Finished (took 1s.40ms)
+

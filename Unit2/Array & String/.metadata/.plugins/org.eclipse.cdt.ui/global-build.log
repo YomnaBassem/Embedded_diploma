@@ -1,10 +1,33 @@
-10:55:44 **** Incremental Build of configuration Debug for project Array_EX1 ****
+11:16:55 **** Rebuild of configuration Debug for project Array_EX2 ****
 Info: Internal Builder is used for build
-gcc -o Array_EX1.exe "src\\Array_EX1.o" 
-Info: Nothing to build for Array_EX1
-10:56:06 **** Incremental Build of configuration Debug for project Array_EX1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX2.o" "..\\src\\Array_EX2.c" 
+gcc -o Array_EX2.exe "src\\Array_EX2.o" 
+11:17:10 **** Incremental Build of configuration Debug for project Array_EX2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX1.o" "..\\src\\Array_EX1.c" 
-gcc -o Array_EX1.exe "src\\Array_EX1.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Array_EX1.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX2.o" "..\\src\\Array_EX2.c" 
+..\src\Array_EX2.c: In function 'main':
+..\src\Array_EX2.c:16:17: error: array size missing in 'a'
+  float Average, a[];
+                 ^
+..\src\Array_EX2.c:28:19: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  printf("Average=%f",sum/n);
+                   ^
+..\src\Array_EX2.c:16:8: warning: unused variable 'Average' [-Wunused-variable]
+  float Average, a[];
+        ^~~~~~~
+11:19:45 **** Incremental Build of configuration Debug for project Array_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX2.o" "..\\src\\Array_EX2.c" 
+..\src\Array_EX2.c: In function 'main':
+..\src\Array_EX2.c:16:8: warning: unused variable 'Average' [-Wunused-variable]
+  float Average, sum=0 ;
+        ^~~~~~~
+gcc -o Array_EX2.exe "src\\Array_EX2.o" 
+11:22:52 **** Incremental Build of configuration Debug for project Array_EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array_EX2.o" "..\\src\\Array_EX2.c" 
+..\src\Array_EX2.c: In function 'main':
+..\src\Array_EX2.c:16:8: warning: unused variable 'Average' [-Wunused-variable]
+  float Average, sum=0 ;
+        ^~~~~~~
+gcc -o Array_EX2.exe "src\\Array_EX2.o" 
