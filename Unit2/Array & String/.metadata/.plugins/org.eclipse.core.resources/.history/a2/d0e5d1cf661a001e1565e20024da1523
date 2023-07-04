@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Array_EX3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int r , c;
+	printf("Enter rows and columns of the matrix : \n");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d",r,c);
+	float a[r][c];
+	printf("Enter elements of the matrix :");
+	for(int i=0; i<r;i++){
+		for(int j=0; j<c; j++){
+			printf("Enter element a%d%d :",r,c);
+
+		}
+	}
+}
