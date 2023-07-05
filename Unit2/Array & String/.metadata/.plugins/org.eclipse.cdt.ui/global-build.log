@@ -1,5 +1,4 @@
-Info: Nothing to build for String_EX1
-15:39:16 **** Incremental Build of configuration Debug for project String_EX1 ****
+16:33:00 **** Incremental Build of configuration Debug for project String_EX3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_EX1.o" "..\\src\\String_EX1.c" 
-gcc -o String_EX1.exe "src\\String_EX1.o" 
+gcc -o String_EX3.exe "src\\String_EX3.o" 
+Info: Nothing to build for String_EX3

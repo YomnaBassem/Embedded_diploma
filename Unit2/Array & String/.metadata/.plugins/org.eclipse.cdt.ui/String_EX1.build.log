@@ -1,7 +1,1 @@
-15:39:16 **** Incremental Build of configuration Debug for project String_EX1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_EX1.o" "..\\src\\String_EX1.c" 
-gcc -o String_EX1.exe "src\\String_EX1.o" 
-
-15:39:20 Build Finished (took 3s.906ms)
-
+Info: Nothing to build for String_EX1
