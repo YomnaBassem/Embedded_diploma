@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int x, y, is_prime;
+
+    printf("Enter two numbers (intervals): ");
+    fflush(stdin); fflush(stdout);
+    scanf("%d %d", &x, &y);
+
+    printf("Prime numbers between %d and %d are: ", x, y);
+
+    for (int i = x + 1; i <= y; i++) {
+        is_prime = 1;
+
+        for (int j = x+1; j <= y; j++) {
+            if (i % j == 0) {
+                is_prime = 0;
+                break;
+            }
+        }
+
+        if (is_prime == 1) {
+            printf("%d ", i);
+        }
+    }
+
+    return 0;
+}

@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : EX_1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int x,y,IsPrime;
+	printf("Enter two numbers(intervals):");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d",&x,&y);
+	for(int i=x+1;i<y;i++){
+		IsPrime=1; //Number is prime
+		for(int j=x+1;j<y;j++){
+			if (i%j==0 && i!=j) {
+				IsPrime=0; //Number is not prime
+				break;
+			}
+		}
+		if(IsPrime==1) printf("%d \t",i);
+	}
+}
