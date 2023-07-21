@@ -1,5 +1,7 @@
-Info: Nothing to build for EX_3
 22:26:31 **** Incremental Build of configuration Debug for project EX_3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_3.o" "..\\src\\EX_3.c" 
 gcc -o EX_3.exe "src\\EX_3.o" 
+
+22:26:32 Build Finished (took 1s.95ms)
+
