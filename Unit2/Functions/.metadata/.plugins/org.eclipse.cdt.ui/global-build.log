@@ -1,5 +1,19 @@
-21:05:37 **** Incremental Build of configuration Debug for project EX_1 ****
+21:19:03 **** Rebuild of configuration Debug for project EX_2 ****
 Info: Internal Builder is used for build
-gcc -o EX_1.exe "src\\EX_1.o" 
-Info: Nothing to build for EX_1
-Info: Nothing to build for EX_1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+21:19:10 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+..\src\EX_2.c: In function 'factorial':
+..\src\EX_2.c:26:12: warning: implicit declaration of function 'faxtorial' [-Wimplicit-function-declaration]
+   return x*faxtorial(x-1);
+            ^~~~~~~~~
+gcc -o EX_2.exe "src\\EX_2.o" 
+src\EX_2.o: In function `factorial':
+C:\Users\world\Desktop\Embedded diploma\Unit2\Functions\EX_2\Debug/../src/EX_2.c:26: undefined reference to `faxtorial'
+collect2.exe: error: ld returned 1 exit status
+21:19:23 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
