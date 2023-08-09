@@ -1,4 +1,0 @@
-22:48:23 **** Incremental Build of configuration Debug for project EX_4 ****
-Info: Internal Builder is used for build
-gcc -o EX_4.exe "src\\EX_4.o" 
-Info: Nothing to build for EX_4

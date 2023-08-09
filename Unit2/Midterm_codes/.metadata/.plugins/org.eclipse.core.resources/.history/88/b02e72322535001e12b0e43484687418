@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int Reverse(int x);
+int main(void) {
+	int x, rev=0;
+	printf("enter a number:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&x);
+	rev=Reverse(x);
+}
+int Reverse(int x){
+	int n=0;
+	n=x%10;
+	printf("%d",n);
+	Reverse(n/10);
+	}
+

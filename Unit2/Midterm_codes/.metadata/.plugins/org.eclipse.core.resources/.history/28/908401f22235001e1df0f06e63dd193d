@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Q4.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int Reverse(int x[],int length);
+int main(void) {
+	int num[100];
+	printf("enter a number:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&num[0]);
+	Reverse(num,sizeof(num)/sizeof(num[0]));
+}
+int Reverse(int x[], int length){
+	if(length<0) return;
+	printf("%d",x[length]);
+	length--;
+	Reverse(x,length);
+	}
