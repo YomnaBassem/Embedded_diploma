@@ -1,17 +1,21 @@
-/*
- ============================================================================
- Name        : Q8.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
 
 #include <stdio.h>
 #include <stdlib.h>
-
+int Reverse_elements(int a[],int size){
+	for(int i=size-1; i>=0; i--){
+		printf("%d ",a[i]);
+	}
+}
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+	int size;
+	printf("Enter the size of array: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&size);
+	int a[size];
+	printf("Enter the array elements: ");
+	for(int i=0; i<size; i++){
+		scanf("%d",&a[i]);
+	}
+	printf("The reversed array is : ");
+	printf("%d ",Reverse_elements(a,size));
 }
