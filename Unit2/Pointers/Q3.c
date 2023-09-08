@@ -3,15 +3,21 @@
 #include <stdlib.h>
 
 int main(void){
-    char string[]="w3resource";
+    char string[100];
     char *ps=string;
+    int i=0;
     printf("Input a string : ");
-    for(int i=0 ; i<strlen(string) ; i++){
-        printf("%c",ps[i]);
+    gets(string);
+    for( ; i<strlen(string) ; i++){
+        *ps=string[i];
+        ps++;
     }    
+    i=0;
     printf("\n");
     printf("Reverse of string is : ");
-    for (int i=strlen(string) ; i>=0 ; i--){
-        printf("%c",ps[i]);
+    while(i<strlen(string)){
+        printf("%c",*ps);
+        ps--;
+        i++;
     }
 }
